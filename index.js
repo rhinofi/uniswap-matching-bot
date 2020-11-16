@@ -103,7 +103,7 @@ async function placeOrder (amount) {
       symbol: PAIR,
       amount,
       price,
-      starkPrivateKey: PRIVATE_KEY // .substring(2)
+      starkPrivateKey: PRIVATE_KEY.substring(2)
     })
   } catch (e) {
     const error = (e.error && e.error.details && e.error.details.error) || {}

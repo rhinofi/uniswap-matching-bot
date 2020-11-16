@@ -1,0 +1,30 @@
+{
+  "name": "uniswap-matching-bot",
+  "version": "1.0.0",
+  "description": "A simple bot that matches prices on Uniswap when market-making on DeversiFi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeversiFi/uniswap-matching-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeversiFi/uniswap-matching-bot/issues"
+  },
+  "homepage": "https://github.com/DeversiFi/uniswap-matching-bot#readme",
+  "dependencies": {
+    "@ethersproject/contracts": "^5.0.5",
+    "@ethersproject/providers": "^5.0.14",
+    "@ethersproject/solidity": "^5.0.5",
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "@uniswap/sdk": "^3.0.3",
+    "dvf-client-js": "^1.0.6",
+    "dvf-utils": "git+https://github.com/deversifi/dvf-utils.git",
+    "lodash": "^4.17.20",
+    "web3": "^1.3.0"
+  }
+}

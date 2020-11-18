@@ -7,7 +7,7 @@ This bot allows high speed-trading on a completely non-custodial exchange.
 ### Steps to use:
 
 1. Create a new Ethereum account and fund with ETH
-2. `git clone git@github.com:DeversiFi/uniswap-matching-bot.git`
+2. `git clone https://github.com/DeversiFi/uniswap-matching-bot.git`
 2. Copy `config.example.js` => `config.js`
 3. Get an Alchemy URL and enter use it to populate the config file: [here](https://github.com/DeversiFi/micro-bot/blob/main/config.example.js#L5)
 4. Enter your Ethereum private key here (prefixed with 0x): [here](https://github.com/DeversiFi/micro-bot/blob/main/config.example.js#L3)
@@ -17,9 +17,9 @@ Once the above setup is complete, you can use the following instructions:
 
 `npm install`
 
-`npm setup` - registers and deposits your ETH to the exchange
+`node setup` - registers and deposits your ETH to the exchange
 
-`npm index` - starts the bot!
+`node index` - starts the bot!
 
 
 ### Other information:
